@@ -36,6 +36,21 @@ body {
     100% { right: -100; }*/
 }
 
+/*.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -1;
+}*/
 .title-screen {
   background-image: url("img/Dnieper-River.jpg");
   width: 100vw;
