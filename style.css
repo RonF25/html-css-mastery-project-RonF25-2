@@ -223,6 +223,36 @@ body {
   text-align: center;
 }
 
+.back1-3 {
+  background-color: #005BBB;
+  height: 100rem;
+  width: 100%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.back1-4 {
+  background-color: #FFD500;
+  height: 100rem;
+  width: 100%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
 .content-title-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 8rem;
