@@ -36,14 +36,24 @@ body {
     text-align: center;
     z-index: -1;
 }*/
-
+.list {
+    width: 98vw;
+    /*background-size: cover;*/
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    background-color: color(yellowbruh);
+    list-style: none;
+}
 .title-screen {
     background-image: url("img/Dnieper-River.jpg");
     width: 100vw;
     background-size: cover;
     height: 100rem;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: column;
     text-align: center;
 }
@@ -53,10 +63,10 @@ body {
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    
     font-size: 9rem;
     color: white;
     opacity: 0.90; 
+    margin: 25rem;
     text-shadow: -2px -2px 0 #000,
                  2px -2px 0 #000,
                  -2px 2px 0 #000,
@@ -80,6 +90,7 @@ body {
     font-size: 7rem;
     color: white;
     opacity: 0.90;
+    margin: -25rem;
     text-shadow: -2px -2px 0 #000,
                 2px -2px 0 #000,
                 -2px 2px 0 #000,
