@@ -37,7 +37,7 @@ body {
     z-index: -1;
 }*/
 .list {
-    width: 98vw;
+    width: 97.9vw;
     /*background-size: cover;*/
     align-items: flex-start;
     display: flex;
@@ -46,7 +46,121 @@ body {
     text-align: center;
     background-color: color(yellowbruh);
     list-style: none;
+    margin-bottom: 25rem;
+    @include laptop {
+        font-size: 7rem;
+        width: 87.9 vw;
+    }
+    @include tablet {
+        font-size: 6rem;
+        width: 77.9 vw;
+    }
+    @include phone {
+        font-size: 5rem;
+        width: 77.9 vw;
+    }
 }
+
+.words-4 {
+    @include laptop {
+        font-size: 7rem;
+        
+    }
+    @include tablet {
+        font-size: 6rem;
+       
+    }
+    @include phone {
+        font-size: 5rem;
+        
+    }
+}
+.words-4:active, :visited, :link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    text-decoration: none; 
+    }
+    .words-4-1 {
+        @include laptop {
+            font-size: 7rem;
+            
+        }
+        @include tablet {
+            font-size: 6rem;
+            
+        }
+        @include phone {
+            font-size: 3.3rem;
+            
+        }
+    }
+    .b-words-4-1:active, :visited, :link {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3.3rem;
+        color: white;
+        opacity: 0.90;
+        text-shadow: -2px -2px 0 #000,
+                    2px -2px 0 #000,
+                    -2px 2px 0 #000,
+                    2px 2px 0 #000;
+        text-decoration: none; 
+        }
+.words-4-2 {
+    @include laptop {
+        font-size: 7rem;
+        
+    }
+    @include tablet {
+        font-size: 6rem;
+        
+    }
+    @include phone {
+        font-size: 3.3rem;
+        
+    }
+}
+.b-words-4-2:active, :visited, :link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    text-decoration: none; 
+    }
+.words-4-3 {
+    @include laptop {
+        font-size: 7rem;
+        
+    }
+    @include tablet {
+        font-size: 6rem;
+        
+    }
+    @include phone {
+        font-size: 5rem;
+        
+    }
+}
+.b-words-4-3:active, :visited, :link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    text-decoration: none; 
+    }
 .title-screen {
     background-image: url("img/Dnieper-River.jpg");
     width: 100vw;
@@ -56,6 +170,7 @@ body {
     /*justify-content: center;*/
     flex-direction: column;
     text-align: center;
+    
 }
 #title-1 {
     font-family: 'Oswald', sans-serif;
@@ -66,7 +181,6 @@ body {
     font-size: 9rem;
     color: white;
     opacity: 0.90; 
-    margin: 25rem;
     text-shadow: -2px -2px 0 #000,
                  2px -2px 0 #000,
                  -2px 2px 0 #000,
@@ -90,7 +204,6 @@ body {
     font-size: 7rem;
     color: white;
     opacity: 0.90;
-    margin: -25rem;
     text-shadow: -2px -2px 0 #000,
                 2px -2px 0 #000,
                 -2px 2px 0 #000,

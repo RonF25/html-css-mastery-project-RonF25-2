@@ -52,7 +52,7 @@ body {
     z-index: -1;
 }*/
 .list {
-  width: 98vw;
+  width: 97.9vw;
   /*background-size: cover;*/
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -70,6 +70,136 @@ body {
   text-align: center;
   background-color: #FFD500;
   list-style: none;
+  margin-bottom: 25rem;
+}
+
+@media (max-width: 950px) {
+  .list {
+    font-size: 7rem;
+    width: 87.9 vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .list {
+    font-size: 6rem;
+    width: 77.9 vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .list {
+    font-size: 5rem;
+    width: 77.9 vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .words-4 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .words-4 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .words-4 {
+    font-size: 5rem;
+  }
+}
+
+.words-4:active, :visited, :link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  opacity: 0.90;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .words-4-1 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .words-4-1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .words-4-1 {
+    font-size: 3.3rem;
+  }
+}
+
+.b-words-4-1:active, :visited, :link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  opacity: 0.90;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .words-4-2 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .words-4-2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .words-4-2 {
+    font-size: 3.3rem;
+  }
+}
+
+.b-words-4-2:active, :visited, :link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  opacity: 0.90;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .words-4-3 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .words-4-3 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .words-4-3 {
+    font-size: 5rem;
+  }
+}
+
+.b-words-4-3:active, :visited, :link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  opacity: 0.90;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-decoration: none;
 }
 
 .title-screen {
@@ -101,7 +231,6 @@ body {
   font-size: 9rem;
   color: white;
   opacity: 0.90;
-  margin: 25rem;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
@@ -136,7 +265,6 @@ body {
   font-size: 7rem;
   color: white;
   opacity: 0.90;
-  margin: -25rem;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
