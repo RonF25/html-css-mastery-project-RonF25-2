@@ -49,15 +49,15 @@ body {
     margin-bottom: 25rem;
     @include laptop {
         
-        width: 87.9 vw;
+        
     }
     @include tablet {
         
-        width: 77.9 vw;
+       
     }
     @include phone {
         align-items: center;
-        width: 67.9 vw;
+        width: 89.9vw;
     }
 }
 
@@ -72,7 +72,7 @@ body {
     }
     @include phone {
         font-size: 3.3rem;
-        margin: 0.3rem
+        margin-left: -3rem;
         
     }
 }
@@ -98,7 +98,7 @@ body {
         }
         @include phone {
             font-size: 3.3rem;
-            margin: 0.3rem
+            
         }
     }
     .b-words-4-1:active, :visited, :link {
@@ -123,7 +123,7 @@ body {
     }
     @include phone {
         font-size: 3.3rem;
-        margin: 0.3rem
+       
     }
 }
 .b-words-4-2:active, :visited, :link {
@@ -148,7 +148,7 @@ body {
     }
     @include phone {
         font-size: 3.3rem;
-        margin: 0.3rem
+      
     }
 }
 .b-words-4-3:active, :visited, :link {
@@ -1004,10 +1004,3 @@ body {
                 2px 2px 0 #000;
     text-decoration: none; 
     }
-
-
-
-
-
-
-

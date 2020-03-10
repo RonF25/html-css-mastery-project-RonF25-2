@@ -73,24 +73,12 @@ body {
   margin-bottom: 25rem;
 }
 
-@media (max-width: 950px) {
-  .list {
-    width: 87.9 vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .list {
-    width: 77.9 vw;
-  }
-}
-
 @media (max-width: 375px) {
   .list {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 67.9 vw;
+    width: 89.9vw;
   }
 }
 
@@ -109,7 +97,7 @@ body {
 @media (max-width: 375px) {
   .words-4 {
     font-size: 3.3rem;
-    margin: 0.3rem;
+    margin-left: -3rem;
   }
 }
 
@@ -137,7 +125,6 @@ body {
 @media (max-width: 375px) {
   .words-4-1 {
     font-size: 3.3rem;
-    margin: 0.3rem;
   }
 }
 
@@ -165,7 +152,6 @@ body {
 @media (max-width: 375px) {
   .words-4-2 {
     font-size: 3.3rem;
-    margin: 0.3rem;
   }
 }
 
@@ -193,7 +179,6 @@ body {
 @media (max-width: 375px) {
   .words-4-3 {
     font-size: 3.3rem;
-    margin: 0.3rem;
   }
 }
 
