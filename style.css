@@ -75,22 +75,22 @@ body {
 
 @media (max-width: 950px) {
   .list {
-    font-size: 7rem;
     width: 87.9 vw;
   }
 }
 
 @media (max-width: 768px) {
   .list {
-    font-size: 6rem;
     width: 77.9 vw;
   }
 }
 
 @media (max-width: 375px) {
   .list {
-    font-size: 5rem;
-    width: 77.9 vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 67.9 vw;
   }
 }
 
@@ -108,7 +108,8 @@ body {
 
 @media (max-width: 375px) {
   .words-4 {
-    font-size: 5rem;
+    font-size: 3.3rem;
+    margin: 0.3rem;
   }
 }
 
@@ -136,6 +137,7 @@ body {
 @media (max-width: 375px) {
   .words-4-1 {
     font-size: 3.3rem;
+    margin: 0.3rem;
   }
 }
 
@@ -163,6 +165,7 @@ body {
 @media (max-width: 375px) {
   .words-4-2 {
     font-size: 3.3rem;
+    margin: 0.3rem;
   }
 }
 
@@ -189,7 +192,8 @@ body {
 
 @media (max-width: 375px) {
   .words-4-3 {
-    font-size: 5rem;
+    font-size: 3.3rem;
+    margin: 0.3rem;
   }
 }
 
@@ -1469,7 +1473,7 @@ body {
 
 .b-words-1:active, :visited, :link {
   font-family: 'Oswald', sans-serif;
-  font-size: 6rem;
+  font-size: 3rem;
   color: white;
   opacity: 0.90;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
