@@ -1,0 +1,273 @@
+@import"./_varaiables.scss";
+@import"./_colors.scss";
+.content-title-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    @include laptop {
+        font-size: 7rem;
+    }
+    @include tablet {
+        font-size: 6rem;
+    }
+    @include phone {
+        font-size: 5rem;
+    }
+    
+}
+.content-title-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    color: white;
+    opacity: 0.90;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    @include laptop {
+        font-size: 5rem;
+    }
+    @include tablet {
+        font-size: 4rem;
+    }
+    @include phone {
+        font-size: 3rem;
+    }
+                
+
+}
+.img-1 {
+    display: flex;
+    background-image: url("img/Kiev.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+        flex-direction: column;
+    }
+}
+.img-1:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-1:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.words-1-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.words-1-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+    
+}
+.img-1-2 {
+    display: flex;
+    background-image: url("img/Odessa.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    transition: 0.7s all;
+    background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+        flex-direction: column;
+    }
+}
+.img-1-2:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-1-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.words-2-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.words-2-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.img-1-3{
+    display: flex;
+    background-image: url("img/Lviv.jpg");
+    height: 50rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    @include laptop {
+        height: 50rem;
+        width: 30rem;
+    }
+    @include tablet {
+        height: 50rem;
+        width: 25rem;
+        margin: 0.5rem;
+    }
+    @include phone {
+        height: 20rem;
+        width: 100%;
+        margin: 0.5rem;
+        flex-direction: column;
+    }
+}
+
+@include laptop {
+    height: 50rem;
+    width: 30rem;
+}
+@include tablet {
+    height: 50rem;
+    width: 25rem;
+    margin: 0.5rem;
+}
+@include phone {
+    height: 20rem;
+    width: 100%;
+    margin: 0.5rem;
+    flex-direction: column;
+}
+.img-1-3:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    outline: 1rem solid white;
+}
+.img-1-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.words-3-1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.words-3-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000;
+}
+.img-content-1 {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s all;
+     @include phone {
+        flex-direction: column;
+    }
+    @include laptop {
+        
+    }
+    @include tablet {
+        
+    } 
+    
+}
