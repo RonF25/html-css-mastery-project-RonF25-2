@@ -38,8 +38,8 @@
         width: 30rem;
     }
     @include tablet {
-        height: 50rem;
-        width: 25rem;
+        height: 25rem;
+        width: 50rem;
         margin: 0.5rem;
     }
     @include phone {
@@ -102,8 +102,8 @@
         width: 30rem;
     }
     @include tablet {
-        height: 50rem;
-        width: 25rem;
+        height: 25rem;
+        width: 50rem;
         margin: 0.5rem;
     }
     @include phone {
